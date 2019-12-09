@@ -1,8 +1,8 @@
 #include<stdio.h>
 main()
 {
-	int n;
-	printf("\n enter a number :");
-	scanf("%d",&n);
-printf(n>0 ? "+ve" : n<0 ?"-ve": "zero");
+	int a,b,c;
+	printf("\n enter three values");
+	scanf("%d%d%d",&a,&b,&c);
+	printf(a==b&&b==c ?"all are equal":a>b&&a>c ? "a is big":b>c ? "b is big": "c is big");
 }

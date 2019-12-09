@@ -1,6 +1,14 @@
 #include<stdio.h>
 main()
+
 {
-	int a;
-	printf("\n a=%d",a);
+		int a,b,c;
+	printf("\n enter three values :");
+	scanf("%d%d%d",&a,&b,&c);
+	if (a>b&&a>c)
+	printf("\n a is big");
+	else if(b>c)
+	printf("\n b is big");
+	else
+	printf("\n c is big");
 }

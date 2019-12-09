@@ -1,8 +1,16 @@
 #include<stdio.h>
 main()
 {
-	int n;
-	printf("\n enter a number :");
-	scanf("%d",&n);
-	printf(n%2==0 ? "even" : "odd");
+	char ch;
+	printf("\n enter the character:");
+	scanf("%c",&ch);
+	switch(ch)
+	{
+		case'a':
+		case'e':
+		case'i':
+		case'o':
+		case'u':printf("\n vowel");break;
+		default:printf("\n consonant");
+	}
 }
